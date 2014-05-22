@@ -1,0 +1,21 @@
+
+/**
+ * IBM logo.
+ */
+
+.logo[data-logo="IBM"] {
+  width: 0;
+}
+
+.logo[data-logo="IBM"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="IBM"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="IBM"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
